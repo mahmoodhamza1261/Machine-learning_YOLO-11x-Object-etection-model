@@ -1,0 +1,13 @@
+train: /home/ocr/Desktop/internship/Yolo11x-MODEL-TRAINING-100EPOCHS_raw data_and_augmented_data/Dataset_Skipped.v9i.yolov8/train/images
+val: /home/ocr/Desktop/internship/Yolo11x-MODEL-TRAINING-100EPOCHS_raw data_and_augmented_data/Dataset_laplace.v2i.yolov8-20250109T121945Z-001/Dataset_laplace.v2i.yolov8/train/images
+
+
+nc: 11
+names: ['LEI-01', 'LEM-01-B', 'LEM-01-O', 'LEM-01-W', 'LEM-01-Y', 'PB-01-G', 'PB-01-L', 'PB-01-P', 'SA-01-P', 'SA-01-R', 'SA-01-Y']
+
+roboflow:
+  workspace: visionx-1ipou
+  project: dataset_skipped
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/visionx-1ipou/dataset_skipped/dataset/7
